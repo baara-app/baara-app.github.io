@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baara+ Privacy Policy</title>
 </head>
+
 <body>
-<p>Les informations transmises ou recueillies par Baara+ à l'occasion de l’utilisation du service, en particulier par les utilisateurs lors d’une commande sont considérées comme des informations confidentielles et ne sont donc pas communiquées en externe, sauf disposition contraire des présentes CGU. Cette disposition ne fait pas obstacle aux communications réalisées par Baara+ pour se conformer aux lois et règlements en vigueur et à toute réquisition ou requête judiciaire ou administrative, pour se protéger ou protéger les utilisateurs, et toute autre personne.</p>
+    <header>
+        <h1>Baara+ Privacy Policy</h1>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>Welcome to Baara+! This Privacy Policy outlines how we collect, use, and protect your personal information when you use our mobile application for Android and iOS.</p>
+    </section>
+
+    <section>
+        <h2>Information We Collect</h2>
+        <p>When you use Baara+, we may collect the following types of information:</p>
+        <ul>
+            <li>Personal Information: This includes your name, email address, phone number, and other details you provide when creating an account.</li>
+            <li>Usage Information: We collect data on how you interact with the app, including pages visited, features used, and other behavioral data.</li>
+            <li>Device Information: We may collect information about the device you use to access Baara+, such as device type, operating system, and unique device identifiers.</li>
+            <li>Location Information: With your consent, we may collect your precise location data to provide location-based services.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>How We Use Your Information</h2>
+        <p>We use the collected information for the following purposes:</p>
+        <ul>
+            <li>Providing and improving our services</li>
+            <li>Personalizing your experience on Baara+</li>
+            <li>Communicating with you, including responding to inquiries and providing updates</li>
+            <li>Analyzing usage patterns to enhance user experience</li>
+            <li>Ensuring the security of our platform</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Information Sharing</h2>
+        <p>We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this Privacy Policy or as required by law.</p>
+    </section>
+
+    <section>
+        <h2>Account Security</h2>
+        <p>Your account security is important to us. Please keep your account credentials confidential and notify us immediately of any unauthorized access or suspicious activity.</p>
+    </section>
+
+    <section>
+        <h2>Guest Login</h2>
+        <p>While we offer a guest login option to experience the app, please note that certain pages and resources may require you to create an account for access.</p>
+    </section>
+
+    <section>
+        <h2>Changes to this Privacy Policy</h2>
+        <p>We reserve the right to update or change our Privacy Policy at any time. You will be notified of any changes by updating the "Last Updated" date at the top of this document.</p>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:privacy@baara.plus">privacy@baara.plus</a>.</p>
+    </section>
+
+    <footer>
+        <p id="last-updated"></p>
+    </footer>
+
+    <script>
+        // Function to get the current date and subtract 2 days
+        function getLastUpdatedDate() {
+            var currentDate = new Date();
+            currentDate.setDate(currentDate.getDate() - 2);
+
+            var year = currentDate.getFullYear();
+            var month = (currentDate.getMonth() + 1).toString().padStart(2, '0');
+            var day = currentDate.getDate().toString().padStart(2, '0');
+
+            return year + '-' + month + '-' + day;
+        }
+
+        // Set the "Last Updated" date in the footer
+        document.getElementById('last-updated').innerText = 'Last Updated: ' + getLastUpdatedDate();
+    </script>
 </body>
+
 </html>
